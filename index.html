@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <script src="./script/javascript.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://kit.fontawesome.com/e3c06f5ca8.js" crossorigin="anonymous"></script>
+  <title>Chamados</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--Título da página-->
+    <div class="chamado">
+      <h1 class="titulo">Chamados</h1>
+      <img class="ilustracao" src="./css/img/work.svg" alt="pessoas trabalhando">
+    </div>
+
+    <!--Cor background-->
+    <div class="background">
+
+      <!--Formulario-->
+      <main>
+        <form class="formulario">
+
+          <!--Titulo do chamado-->
+          <label for="titulo">Título do chamado</label>
+          <input type="text" id="Titulo" name="titulo">
+
+          <!--Solicitante-->
+          <label for="solicitante">Solicitante</label>
+          <input type="text" id="Solicitante" name="nome">
+
+          <!--Data-->
+          <label for="data">Data</label>
+          <input class="layout_data" type="date" id="Data">
+
+          <!--Descricao-->
+          <label class="layout_descricao" for="descricao">Descrição</label>
+          <textarea name="descricao" id="Descricao" cols="30" rows="6"></textarea>
+
+          <!--Botoes-->
+          <div class="botao">
+
+            <!--Botao Adicionar retornando alert com mensagem-->
+            <input type="button" value="Adicionar" class="btn_adicionar" id="btn_adicionar" onclick="validarChamado('Titulo','Solicitante','Data','Descricao')" />
+
+            <!--Botao Consultar direcionando para página Consulta.html-->
+            <input type="button" value="Consultar" class="btn_consultar" id="btn_consultar" onclick="window.open('consulta.html','_self')">
+
+            <!--Botao Limpar limpa todos os inputs-->
+            <input type="reset" value="Limpar" class="btn_limpar">
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

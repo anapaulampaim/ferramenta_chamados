@@ -1,0 +1,14 @@
+.formulario {
+  display: grid;
+  grid-template-columns: 60%;
+  justify-content: center;
+  gap: 4px;
+}
+
+.layout_data {
+  width: 150px;
+}
+
+.layout_descricao {
+  margin-top: 12px;
+}

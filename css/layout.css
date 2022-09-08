@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  margin: 0px;
+}
+
+.background {
+  background-color: #f5f5f5;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.chamado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titulo {
+  margin-left: 40%;
+  margin-top: 90px;
+  font-family: Montserrat-Regular;
+  color: #6f87c9;
+  font-weight: 800;
+}
+
+.retorno {
+  background-color: rgb(160, 103, 33);
+}

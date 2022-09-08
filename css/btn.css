@@ -1,0 +1,31 @@
+.botao {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.btn_adicionar {
+  background-color: #6f87c9;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid #767676;
+}
+
+.btn_consultar {
+  background-color: #f5f5f5;
+  color: #576fb3;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid #767676;
+}
+
+.btn_limpar {
+  background-color: #f5f5f5;
+  color: #576fb3;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid #767676;
+}
